@@ -36,7 +36,7 @@ a{text-decoration: none;}
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding: 9.5rem 4rem 6rem 4rem;
+    padding: 8.5rem 4rem 6rem 4rem;
 
     display: flex;
     justify-content: center;
@@ -72,20 +72,20 @@ a{text-decoration: none;}
 .content .main::before{
     content: "";
     position: absolute;
-    top: calc(15em + 1.8em);
+    top: calc(15em + 0.9em);
 
     width: 1px;
-    height: 4.4em;
+    height: 70px;
 
     background-color: white;
 }
 .content .menu::before{
     content: "";
     position: absolute;
-    bottom :calc(15em + 2.3em);
+    bottom :calc(15em + 0.9em);
     
     width: 1px;
-    height: 4.4em;
+    height: 70px;
 
     background-color: white;
 }
@@ -147,4 +147,30 @@ a{text-decoration: none;}
 }
 .content .menu ul li:hover{
     background-color: rgba(125, 125, 125, 0.2);
+}
+
+/* footer */
+footer{
+    margin-top: 7em;
+
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 0.33em;
+}
+
+.section article{
+    position: fixed;
+    left: 50%;
+    margin-left: -27.5em;
+    top: 5em;
+
+    z-index: 99;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 55em;
+
+    /* display: none; */
+}
+.section article h2{
+    
 }
