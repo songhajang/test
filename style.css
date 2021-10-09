@@ -72,7 +72,7 @@ a{text-decoration: none;}
 .content .main::before{
     content: "";
     position: absolute;
-    top: calc(15em + 0.9em);
+    top: calc(15rem + 0.9rem);
 
     width: 1px;
     height: 70px;
@@ -82,7 +82,7 @@ a{text-decoration: none;}
 .content .menu::before{
     content: "";
     position: absolute;
-    bottom :calc(15em + 0.9em);
+    bottom :calc(15rem + 0.9rem);
     
     width: 1px;
     height: 70px;
@@ -141,7 +141,7 @@ a{text-decoration: none;}
     cursor: pointer;
 
     line-height: 60px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.3rem;
 
     border-right: 1px solid white;
 }
@@ -151,26 +151,26 @@ a{text-decoration: none;}
 
 /* footer */
 footer{
-    margin-top: 7em;
+    margin-top: 7rem;
 
     font-weight: 100;
     font-size: 13px;
-    letter-spacing: 0.33em;
+    letter-spacing: 0.33rem;
 }
 
 .section article{
     position: fixed;
     left: 50%;
-    margin-left: -27.5em;
-    top: 5em;
+    margin-left: -27.5rem;
+    top: 5rem;
 
     z-index: 99;
 
     background-color: rgba(0, 0, 0, 0.7);
-    width: 55em;
+    width: 55rem;
 
-    /* display: none; */
+    display: none;
 }
-.section article h2{
-    
-}
+/* .section article h2{
+
+} */
