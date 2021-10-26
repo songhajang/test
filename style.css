@@ -98,6 +98,19 @@ a{text-decoration: none;}
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
+.content .main .inner::before{
+    content: "";
+    position: absolute;
+    margin-left: -15em;
+    margin-top: -3em;
+
+    width: 30em;
+    height: 15em;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30%;
+
+    box-shadow: 6px 0px 60px rgba(0, 0, 0, 0.7);
+}
 .content .main .inner h1{
     margin:20px 0;
 
