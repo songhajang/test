@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow: auto;
+}
 ul{list-style: none;}
 a{
     text-decoration: none;
@@ -163,7 +166,9 @@ a:hover{
 .content .menu ul li:hover{
     background-color: rgba(125, 125, 125, 0.2);
 }
-
+.content .menu ul li a{
+    border: none;
+}
 /* footer */
 footer{
     margin-top: 5.5rem;
@@ -174,7 +179,8 @@ footer{
 }
 /* 모달창 */
 .section{
-    overflow-y: initial !important;
+    width: 100%;
+    
 }
 .section article{
     position: fixed;
@@ -190,12 +196,8 @@ footer{
     width: 850px;
     border-radius: 5px;
 
-    /* display: none; */
+    display: none;
     
-}
-
-.modalArea {
-    overflow: scroll;
 }
 
 #X-icon{
